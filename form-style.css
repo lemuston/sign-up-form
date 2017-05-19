@@ -1,0 +1,106 @@
+form {
+	font-family: verdana;
+}
+
+
+
+
+h2 {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+td, th{
+	
+	
+	background-color: #f8ecf2;
+	padding: 0.8em;
+	border: none;
+}
+
+th {
+    
+    font-size: 0.8em;
+
+}
+
+.checkbox {
+	text-align: center;
+}
+
+input[type=textarea]{
+	height: 6em;
+	width: 200px;
+	word-wrap: hard;
+	
+}
+
+input[type=text], [type=date], [type=textarea] {
+    
+    width: 20em;
+    box-sizing: border-box;
+    font-family: verdana;
+
+}
+
+.numero {
+    width: 8em;
+    box-sizing: border-box;
+    font-family: verdana;
+    background-color: white;
+}
+
+
+
+.select {
+	
+    box-sizing: border-box;
+    width: 20em;
+ 
+    font-family: verdana;
+    background-color: white;
+
+}
+
+.otsikko {
+	background-color: transparent;
+}
+
+.nopeus {
+	width: 4em;
+}
+
+.muut {
+    width: 38.5em;
+}
+
+.submit {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+    background: #f4f4f4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+}
+
