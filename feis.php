@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "rooneyfi_2016fg";
-$password = "{%P![[BHngpp";
-$dbname = "rooneyfi_inspiralfeisgrades";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
